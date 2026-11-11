@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faizan Butt</title>
+  <meta name="description" content="Personal portfolio of Faizan Butt.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,520;9..144,640&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">Faizan Butt</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Personal portfolio</p>
+      <h1>Faizan Butt</h1>
+      <p class="lead">
+        I design and build clear, useful things — from interfaces to small products
+        that feel calm to use.
+      </p>
+      <a class="button" href="#contact">Get in touch</a>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About</h2>
+      <div class="about-grid">
+        <p>
+          I’m Faizan Butt. I like work that is simple on the surface and careful
+          underneath: readable writing, tidy layouts, and software people can
+          understand without a manual.
+        </p>
+        <p>
+          This page is a starting point. Swap the intro, skills, and projects
+          below with your own story.
+        </p>
+        <ul class="skills" aria-label="Skills">
+          <li>HTML &amp; CSS</li>
+          <li>JavaScript</li>
+          <li>UI design</li>
+          <li>Writing</li>
+          <li>Problem solving</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="work" class="panel">
+      <h2>Selected work</h2>
+      <p class="note">Sample projects — replace these with your own.</p>
+      <div class="cards">
+        <article class="card">
+          <p class="card-label">01</p>
+          <h3>Studio notes</h3>
+          <p>A quiet reading site for short essays, with a focus on type and spacing.</p>
+        </article>
+        <article class="card">
+          <p class="card-label">02</p>
+          <h3>Field list</h3>
+          <p>A small task app for tracking personal projects without extra noise.</p>
+        </article>
+        <article class="card">
+          <p class="card-label">03</p>
+          <h3>Market day</h3>
+          <p>A one-page site for a weekend stall: hours, what is for sale, and a map.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="panel contact">
+      <h2>Contact</h2>
+      <p>Open to conversations, collaborations, and new work.</p>
+      <ul class="links">
+        <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> Faizan Butt</p>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
